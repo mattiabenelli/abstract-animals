@@ -38,5 +38,12 @@ public class Main {
 			
 			nuotanti[i].nuota();
 		}
+		
+		AnimalManager manager = new AnimalManager();
+		manager.FaiVolare(p);
+		manager.FaiNuotare(c);
+		
+		manager.FaiVolare(a);
+		manager.FaiNuotare(d);
 	}
 }
